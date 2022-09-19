@@ -192,11 +192,32 @@ header h1{
  .produto{
     border-radius: 5px;
     margin  : 20px;
-    color: black;
     width: 360px;
     height: 230px;
     border: 1px solid black;
  }
+
+ iframe{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+ }
+ .acesse{
+    color: rgb(70, 35, 35);
+    font-weight: bolder;
+    font-size: large;
+    background-color: rgb(121, 159, 230);
+    width: 360px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+ }
+ 
+ #social{
+    background-image: url('../imagens/e3f7dc2d-59e2-432c-8639-706a3d358f22.jpg');
+    background-size: cover;
+    background-position: right center;
+ }
+
+
 
 
  #contato{
@@ -226,7 +247,7 @@ header h1{
     text-align: justify;
     padding: 20px;
  }
-
+ 
  @media screen and(max-width: 768px){
     nav{
         display: flex;
