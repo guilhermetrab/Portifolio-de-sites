@@ -158,12 +158,16 @@ header h1{
  #servicos h2{text-align: center;
         width: 100%;}
 
- #serviços div{
+ div.servicos{
+    width: 500px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-top: 30px;
+    padding: 22px;
+    border: 4px solid blue;
+    border-radius: 30px 90px;
  }
 
  #projetos{
@@ -189,35 +193,91 @@ header h1{
 
  }
 
- .produto{
+ ul#sites {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+ul#sites li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid rgba(255, 255, 255, 0.616);
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.788);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.568)
+}
+
+ul#sites li#site1{
+    background: url('../imagens/site1.jpeg');
+    background-position: 50% 50%;
+    background-size: 1092px 594px;
+    background-color: white;
+}
+ul#sites li#site1:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#sites li#site2{
+    background: url('../imagens/site2.jpeg');
+    background-position: 50% 50%;
+    background-size: 453px 509px;
+    background-color: white;
+}
+
+ul#sites li#site2:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#sites li#site3{
+    background: url('../imagens/site3.jpeg');
+    background-position: 50% 50%;
+    background-size: 946px 605px;
+    background-color: white;
+}
+
+ul#sites li#site3:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#sites li#site4{
+    background: url('../imagens/sitex.jpeg');
+    background-position: 50% 50%;
+    background-size: 1269px 588px;
+    background-color: white;
+}
+
+ul#sites li#site4:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+
+ul#sites li span{
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0, 0, 0, 0.342);
+    font-size: 9pt;
+    padding: 5px;
     border-radius: 5px;
-    margin  : 20px;
-    width: 360px;
-    height: 230px;
-    border: 1px solid black;
- }
+}
 
- iframe{
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
- }
- .acesse{
-    color: rgb(70, 35, 35);
-    font-weight: bolder;
-    font-size: large;
-    background-color: rgb(208, 218, 238);
-    width: 360px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
- }
- 
- #social{
-    background-image: url('../imagens/e3f7dc2d-59e2-432c-8639-706a3d358f22.jpg');
-    background-size: cover;
-    background-position: right center;
- }
+ul#sites li span:hover{
+    opacity: 1;
 
-
+}
 
 
  #contato{
@@ -248,6 +308,10 @@ header h1{
     padding: 20px;
  }
  
+ ul#sites li:hover{
+    -webkit-transform: scale(1.5);
+    -webkit-transition: all .2s ease-in;
+}
  @media screen and(max-width: 768px){
     nav{
         display: flex;
