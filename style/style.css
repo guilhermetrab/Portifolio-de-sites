@@ -110,8 +110,12 @@ aside{
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.623);
     height: 60vh;
-    
-    text-align: center;
+    width: 100vw;
+}
+ 
+aside p {
+    text-align: justify;
+    max-width: 1000px;
 }
 
 header h1{
@@ -141,6 +145,7 @@ header h1{
  #sobre p{
     margin-bottom: 2.5em;
     max-width: 1000px;
+    text-align: justify;
  }
 
  #servicos{
@@ -155,8 +160,9 @@ header h1{
     
  }
 
- #servicos h2{text-align: center;
-        width: 100%;}
+ #servicos h2{
+    text-align: center;
+    width: 100%;}
 
  div.servicos{
     width: 500px;
@@ -166,7 +172,7 @@ header h1{
     align-items: center;
     text-align: center;
     padding: 22px;
-    border: 4px solid blue;
+    border: 4px solid white;
     border-radius: 30px 90px;
  }
 
@@ -240,9 +246,9 @@ ul#sites li#site2:hover{
 }
 
 ul#sites li#site3{
-    background: url('../imagens/site3.jpeg');
+    background: url('../imagens/site03.jpeg');
     background-position: 50% 50%;
-    background-size: 946px 605px;
+    background-size: 809px 599px;
     background-color: white;
 }
 
@@ -254,11 +260,23 @@ ul#sites li#site3:hover{
 ul#sites li#site4{
     background: url('../imagens/sitex.jpeg');
     background-position: 50% 50%;
-    background-size: 1269px 588px;
+    background-size: 893px 587px;
     background-color: white;
 }
 
 ul#sites li#site4:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#sites li#site5{
+    background: url('../imagens/site4.jpeg');
+    background-position: 50% 50%;
+    background-size: 1269px 588px;
+    background-color: white;
+}
+
+ul#sites li#site5:hover{
     background-position: 0px 0px;
     background-size: 200px 200px;
 }
