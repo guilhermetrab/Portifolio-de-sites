@@ -112,7 +112,9 @@ aside{
     height: 60vh;
     width: 100vw;
 }
- 
+p{
+    padding: 10px;
+}
 aside p {
     text-align: justify;
     max-width: 1000px;
