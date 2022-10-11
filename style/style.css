@@ -56,7 +56,21 @@ nav{
     background-color: #191970;
     padding:10px;
 }
+i#burguer{
+    color: white;
+    display: none;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
 
+i#burguer:hover{
+    transform: translate(-3px, -3px);
+
+}
+#botoes{
+    display: none;
+}
 nav > a{
     color: white;
     font-weight: 800;
@@ -333,18 +347,8 @@ ul#sites li span:hover{
     -webkit-transition: all .2s ease-in;
 }
  @media screen and(max-width: 768px){
-    nav{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
-    nav ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 70%;
-    }
+
+
 
     header{
         height: 60vh;

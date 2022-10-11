@@ -8,11 +8,18 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet.css">
 </head>
-<body>
-    
+<body onresize="tela()">
+    <script src="script.js"></script>
     <nav>
         <a href="https://github.com/guilhermetrab" target="_blank">Gui Developer</a>
-        <ul>
+        <div id="menu"><i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+            <ul id="botoes">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul></div>
+        <ul id="itens">
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#projetos">Projetos</a></li>
