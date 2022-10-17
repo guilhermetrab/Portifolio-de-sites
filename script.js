@@ -14,3 +14,4 @@ function clickMenu(){
     botoes.style.display = 'none'
     }
 }
+
