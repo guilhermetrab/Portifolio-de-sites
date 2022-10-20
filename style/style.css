@@ -77,10 +77,7 @@ nav > a{
     font-size: 32px;
     font-family: 'Yellowtail', cursive;
 }
-nav ul{
-    flex-direction: row;
-    width: 70%;
-}
+
 nav ul{
     display: flex;
     align-items: center;
